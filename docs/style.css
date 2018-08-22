@@ -1,0 +1,90 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+	text-align: center;
+}
+.portfolio-header {
+	margin-bottom:10em;
+}
+.portfolio-header-title {
+	margin: 3em 3em .3em;
+	font-weight: 100;
+	font-size: 4em;
+	font-size: 5vw;
+}
+
+.portfolio-header-description {
+	max-width: 35em;
+	margin: 5em auto 2em;
+	font-size: 1.5em;
+	font-weight: lighter;
+	line-height: 1.5
+}
+
+.portfolio-entry {
+	margin: 0 0 6em;
+}
+
+.portfolio-entry:not(:last-of-type):after {
+	content: " ";
+	display: block;
+	width: 80%;
+	height: 1px;
+	margin: 6em auto 0;
+	background: #ddd;
+}
+
+.portfolio-entry-title {
+	font-weight: bold;
+	font-size: 1.4em;
+	text-transform: uppercase;
+
+	position: -webkit-sticky;
+	padding: .4em 0;
+	top: 0;
+	background: rgba(255,255,255,.8);
+
+}
+
+.portfolio-entry-description {
+	max-width: 40em;
+	margin: 1em auto 3em;
+}
+
+.portfolio-entry-img {
+	max-width: 80%;
+	margin-bottom: 1em;
+}
+
+.img-small {
+	max-width: 60%;
+	display: block;
+	margin: 1em auto;
+}
+
+.col-3rd {
+	width: 30%;
+	margin: 0 1.5%;
+}
+
+
+
+@media screen and (max-width: 960px) {
+	.portfolio-header-title {
+		font-size: 2em;
+		font-size: 9vw;
+		margin: 2em .5em;
+	}
+
+	.portfolio-entry-title {
+		font-size: 1em;
+	}
+
+	.portfolio-entry-img {
+		max-width: 95%;
+	}
+
+	.col-3rd {
+		margin: 1em 0;
+		width: auto;
+	}
+}
