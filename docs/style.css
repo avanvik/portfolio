@@ -101,6 +101,11 @@ img.fullwidth {
 	.portfolio-header{
 		margin-bottom: 60px;
 	}
+
+	.portfolio-header-description {
+		font-size: 1em;
+	}
+
 	.portfolio-header-title {
 		font-size: 2em;
 		font-size: 9vw;
