@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "./src/index.html",
+  "repository": "https://github.com/avanvik/portfolio.git",
+  "author": "Alexander Vanvik <alexander.vanvik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html --out-dir ./docs"
+  },
+  "dependencies": {
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.149.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.2"
+  }
+}

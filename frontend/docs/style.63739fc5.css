@@ -1,0 +1,126 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #001e8a;
+}
+
+.portfolio-header {
+  margin-bottom: 10em;
+  background: #000256;
+  color: #00c3ff;
+  padding: 3em 2em;
+}
+
+.portfolio-header a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.portfolio-header-title {
+  margin: 0.5em 1em 0;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 10em;
+  font-size: 10vw;
+  line-height: 1.1;
+  display: inline-block;
+}
+
+.portfolio-header-subtitle {
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.portfolio-header-description {
+  max-width: 35em;
+  margin: 3em auto 2em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+.portfolio-entry {
+  margin: 0 auto 6em;
+  width: 80%;
+  max-width: 1200px;
+}
+.portfolio-entry img, .portfolio-entry video {
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-entry:not(:last-of-type):after {
+  content: " ";
+  display: block;
+  width: 80%;
+  height: 2px;
+  margin: 6em auto 0;
+  border-radius: 2px;
+  background: #ddd;
+}
+
+.portfolio-entry-title {
+  font-weight: 800;
+  font-size: 1.4em;
+  font-size: 2em;
+  padding: 0.4em 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-entry-description {
+  max-width: 40em;
+  margin: 1em auto 3em;
+}
+
+.col-3rd {
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+@media screen and (max-width: 960px) {
+  .portfolio-header {
+    margin-bottom: 60px;
+  }
+
+  .portfolio-header-description {
+    font-size: 1em;
+  }
+
+  .portfolio-header-title {
+    font-size: 2em;
+    font-size: 9vw;
+    margin: 2em 0.5em 0;
+  }
+
+  .portfolio-entry {
+    margin: 0 auto 3em;
+  }
+
+  .portfolio-entry:not(:last-of-type):after {
+    margin-top: 3em;
+  }
+
+  .portfolio-entry-title {
+    font-size: 1.6em;
+    margin: 0.5em 0;
+  }
+
+  .portfolio-entry-description {
+    margin-bottom: 2em;
+  }
+
+  .col-3rd {
+    margin: 1em 0;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=/style.63739fc5.css.map */
