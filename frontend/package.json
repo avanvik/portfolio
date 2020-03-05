@@ -6,7 +6,8 @@
   "author": "Alexander Vanvik <alexander.vanvik@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html --out-dir ./docs"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --out-dir ../docs"
   },
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
